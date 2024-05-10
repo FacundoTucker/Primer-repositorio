@@ -26,5 +26,5 @@ const resultado = calcularResultado(exponente, base);
 if(exponente >= 0){
     console.log ("El resultado de "+ base + " elevado a la " + exponente + " es igual a "+ resultado);
 }else{
-    console.log ("Error. Ingrese un numero mayor a 0");
+    console.log ("Error. Ingrese un numero positivo");
 }
